@@ -21,7 +21,7 @@ Example :
 
 Copy&paste the vol1.dat file from `\steamapps\common\MegaMan_BattleNetwork_LegacyCollection_Vol1\launcher\data` into app folder
 
-Execute `ReplaceMMBNLCPictures.exe vol1.dat"` in the console will extract pictures from the Legacy Collection into the "vol1" folder
+Execute `ReplaceMMBNLCPictures.exe vol1.dat` in the console will extract pictures from the Legacy Collection into the "vol1" folder
 
 Notes
 =======
