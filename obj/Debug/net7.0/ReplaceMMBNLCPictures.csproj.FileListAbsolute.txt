@@ -1,0 +1,15 @@
+F:\Documents\VSCprojects\ReplaceMMBNLCPictures\bin\Debug\net7.0\ReplaceMMBNLCPictures.exe
+F:\Documents\VSCprojects\ReplaceMMBNLCPictures\bin\Debug\net7.0\ReplaceMMBNLCPictures.deps.json
+F:\Documents\VSCprojects\ReplaceMMBNLCPictures\bin\Debug\net7.0\ReplaceMMBNLCPictures.runtimeconfig.json
+F:\Documents\VSCprojects\ReplaceMMBNLCPictures\bin\Debug\net7.0\ReplaceMMBNLCPictures.dll
+F:\Documents\VSCprojects\ReplaceMMBNLCPictures\bin\Debug\net7.0\ReplaceMMBNLCPictures.pdb
+F:\Documents\VSCprojects\ReplaceMMBNLCPictures\obj\Debug\net7.0\ReplaceMMBNLCPictures.csproj.AssemblyReference.cache
+F:\Documents\VSCprojects\ReplaceMMBNLCPictures\obj\Debug\net7.0\ReplaceMMBNLCPictures.GeneratedMSBuildEditorConfig.editorconfig
+F:\Documents\VSCprojects\ReplaceMMBNLCPictures\obj\Debug\net7.0\ReplaceMMBNLCPictures.AssemblyInfoInputs.cache
+F:\Documents\VSCprojects\ReplaceMMBNLCPictures\obj\Debug\net7.0\ReplaceMMBNLCPictures.AssemblyInfo.cs
+F:\Documents\VSCprojects\ReplaceMMBNLCPictures\obj\Debug\net7.0\ReplaceMMBNLCPictures.csproj.CoreCompileInputs.cache
+F:\Documents\VSCprojects\ReplaceMMBNLCPictures\obj\Debug\net7.0\ReplaceMMBNLCPictures.dll
+F:\Documents\VSCprojects\ReplaceMMBNLCPictures\obj\Debug\net7.0\refint\ReplaceMMBNLCPictures.dll
+F:\Documents\VSCprojects\ReplaceMMBNLCPictures\obj\Debug\net7.0\ReplaceMMBNLCPictures.pdb
+F:\Documents\VSCprojects\ReplaceMMBNLCPictures\obj\Debug\net7.0\ReplaceMMBNLCPictures.genruntimeconfig.cache
+F:\Documents\VSCprojects\ReplaceMMBNLCPictures\obj\Debug\net7.0\ref\ReplaceMMBNLCPictures.dll
