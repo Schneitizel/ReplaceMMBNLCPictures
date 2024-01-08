@@ -27,7 +27,9 @@ Notes
 =======
 
 vol1.dat/vol2.dat contains pictures from the Legacy Collection menus and some in-game images (like New game or Continue) 
+
 f.dat contains font files for the Legacy Collection (NOT THE GAMES THEMSELVES)
+
 v1.dat/v2.dat contains background videos
 
 License
