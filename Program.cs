@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace ReplacePictures
 {
@@ -100,9 +101,12 @@ namespace ReplacePictures
 
         static void Insert()
         {
-            DirectoryInfo d = new DirectoryInfo(path + "\\" + fileName + "\\");
+            string pattern = @"^\d+\.(png|ttf|otf|db|mp4|thumbs\.db)$"; // We get only MMBNLC's files, so you can place any "edit" files like .psd into your folder!
 
-            string[] fichiers = Directory.GetFiles(path + "\\" + fileName + "\\");
+            string[] fichiers = Directory.GetFiles(path + "\\" + fileName + "\\")
+            .Where(fichier => Regex.IsMatch(Path.GetFileName(fichier), pattern, RegexOptions.IgnoreCase))
+            .Select(file => file) // Unnecessary, but added for clarity
+            .ToArray();
 
             FileStream fileStream = new FileStream(path + "\\" + fileName + ".dat", FileMode.Open);
             fileStream.Seek(0, SeekOrigin.Begin);
@@ -125,15 +129,15 @@ namespace ReplacePictures
 
             Console.WriteLine("Start of reintegration of " + fileName + ".dat.");
 
-            foreach (var file in d.GetFiles("*"))
+            foreach (var file in fichiers)
             {
-                byte[] octets = File.ReadAllBytes(path + "\\" + fileName + "\\" + file.Name);
-                charactersName.Add(new customTable(Int32.Parse(file.Name.Replace(".png", "").Replace(".thumbs.db", "").Replace(".ttf", "").Replace(".mp4", "").Replace(".otf", "")), octets, octets.Length));
+                byte[] octets = File.ReadAllBytes(path + "\\" + fileName + "\\" + Path.GetFileName(file));
+                charactersName.Add(new customTable(Int32.Parse(Path.GetFileName(file).Replace(".png", "").Replace(".thumbs.db", "").Replace(".ttf", "").Replace(".mp4", "").Replace(".otf", "")), octets, octets.Length));
             }
 
             long i = 0;
 
-            Console.WriteLine("Loaded files.");
+            Console.WriteLine("Loaded " + fichiers.Length + " files.");
 
             for(i = nbMessage ; i > 0 ; i--)
             {
