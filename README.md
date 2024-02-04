@@ -13,9 +13,9 @@ Usage
 
 In console, type :
 
-`ReplaceMMBNLCPictures.exe filename.dat` for extract (A folder will be created)
+`ReplaceMMBNLCPictures.exe <filename.dat>` for extract (A folder will be created)
 
-`ReplaceMMBNLCPictures.exe filename` for insert (The files in the "filename" folder will be inserted into "filename.dat" file, filename.dat required)
+`ReplaceMMBNLCPictures.exe <filename>` for insert (The files in the "filename" folder will be inserted into "filename.dat" file, filename.dat required)
 
 Example :
 
